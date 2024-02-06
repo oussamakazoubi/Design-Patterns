@@ -1,7 +1,7 @@
 package com.oussama.org.design.patterns.simpleExample;
 
-public class PaypalCard {
+public class PaypalCard implements CardOperator{
     public String Transaction(){
-        return "Transaction Successful by PaypalCard";
+        return "Transaction Successful By PaypalCard";
     }
 }

@@ -7,7 +7,7 @@ public class AllTests {
 
 	@Test
 	public void PaypalCardTest() {
-		CardOperator card = new PayPalCard();
+		CardOperator card = new PaypalCard();
 		assertEquals("Transaction Successful By PaypalCard", card.Transaction());
 	}
 
@@ -15,7 +15,6 @@ public class AllTests {
 	@Test
 	public void MasterCardTest() {
 		CardOperator card = new MasterCard();
-		// Assuming someValidationLogic() returns true
 		assertEquals("Transaction Successful By MasterCard", card.Transaction());
 	}
 
