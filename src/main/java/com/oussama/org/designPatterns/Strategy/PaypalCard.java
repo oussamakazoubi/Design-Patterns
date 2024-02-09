@@ -1,4 +1,4 @@
-package com.oussama.org.design.patterns.simpleExample;
+package com.oussama.org.designPatterns.Strategy;
 
 public class PaypalCard implements CardOperator{
     public String Transaction(){
