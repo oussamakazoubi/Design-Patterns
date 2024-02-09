@@ -3,8 +3,8 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>com.oussama.org</groupId>
-  <artifactId>signleton_DesignPatterns</artifactId>
-  <version>0.0.2-SNAPSHOT</version>
+  <artifactId>Design_Patterns</artifactId>
+  <version>1</version>
   <packaging>jar</packaging>
 
   <name>design.patterns</name>

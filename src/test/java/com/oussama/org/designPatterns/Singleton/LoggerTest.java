@@ -15,6 +15,6 @@ public class LoggerTest {
     @Test
     public void testLogMethod() {
         Logger logger = Logger.getInstance();
-        assertEquals("Transaction Successful By MasterCard", logger.log());
+        assertEquals("Logged Message "+(logger.getNumMessage()+1), logger.log());
     }
 }

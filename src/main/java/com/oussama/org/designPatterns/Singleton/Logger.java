@@ -2,8 +2,9 @@ package com.oussama.org.designPatterns.Singleton;
 
 public class Logger {
     private static Logger instance;
+    private static int numMessage;
 
-    private Logger() {}
+    private Logger() {numMessage=0;}
 
     public static Logger getInstance() {
         if (instance == null) {
@@ -11,9 +12,13 @@ public class Logger {
         }
         return instance;
     }
+    public int getNumMessage(){
+        return numMessage;
+    }
 
-    public void log(String message) {
-        System.out.println(message);
+    public String log() {
+        numMessage++;
+        return "Logged Message "+numMessage;
     }
 }
 
