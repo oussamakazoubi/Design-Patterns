@@ -1,3 +1,4 @@
-com\oussama\org\design\patterns\simpleExample\MasterCard.class
-com\oussama\org\design\patterns\simpleExample\PaypalCard.class
-com\oussama\org\design\patterns\simpleExample\CardOperator.class
+com\oussama\org\designPatterns\Strategy\PaypalCard.class
+com\oussama\org\designPatterns\Singleton\Logger.class
+com\oussama\org\designPatterns\Strategy\CardOperator.class
+com\oussama\org\designPatterns\Strategy\MasterCard.class
